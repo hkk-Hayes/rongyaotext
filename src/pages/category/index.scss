@@ -1,0 +1,79 @@
+.category {
+    width: 100%;
+    height: calc(100vh - 50px);
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+
+    .cate_left {
+        width: 93px;
+        height: 100%;
+        background: #f7f7f7;
+        color: #1A1A1A;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        // font-weight: bold;
+    }
+
+    .cate_right {
+        width: calc(100% - 93px);
+        height: 100%;
+        background: #f7f7f7;
+        overflow-y: auto;
+        .cate_right_con{
+            width: 100%;
+            margin: 5px;
+            background-color: #ffff;
+            display: flex;
+            flex-wrap: wrap;
+            .cate_right_con_item{
+                width: 29%;
+                text-align: center;
+                height: 90px;
+                margin: 5px;
+                display: flex;
+                justify-content: center;
+                align-self: center;
+                flex-direction: column;
+                margin-bottom: 20px;
+                img{
+                    width: 77px;
+                    height: 77px;
+                    
+                }
+                .cate_right_con_item_name{
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2; /* 显示的行数 */
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    color: #1a1a1a;
+                    text-align: center;
+                    font-size: 11px;
+                }
+            }
+        }
+        .cate_right_con1{
+            width: 100%;
+            // margin: 5px;
+            background-color: #ffff;
+        }
+    }
+
+    .adm-side-bar-item-active {
+        color: #ce4436;
+        font-size: 13px;
+        position: relative;
+    }
+
+    .adm-side-bar-item-highlight {
+        position: absolute;
+        height: 23px;
+        width: 3px;
+        left: -12px;
+        top: -5px;
+        background: #ce4436;
+    }
+
+}

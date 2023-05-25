@@ -1,0 +1,73 @@
+.alllist_fix{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+.alllist_headtit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    background-color: #ffffff;
+    position: relative;
+    
+}
+.alllist_headtit_text{
+    line-height: 44px;
+    flex:1;
+    text-align: center;
+    width: 100%;
+    font-size: 17px;
+}
+.alllist_headtit_icon{
+    position: absolute;
+    right: 10px;
+    top: 9px;
+}
+/* 全部商品页标题 */
+
+.alllist_navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    background-color: #ffffff;
+}
+.alllist_navbar_item{
+    width: 25%;
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+}
+/* 商品 */
+.alllist_pic_con{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f7f7f7;
+    margin-top: 90px;
+}
+.alllist_pic_con_item{
+    height: 260px;
+    width: 47%;
+    text-align: center;
+    padding: 2px;
+    margin: 0 3px;
+    margin-bottom: 2px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.alllist_pic_con_item img{
+    width: 70%;
+}
+.alllist_pic_con_item div{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

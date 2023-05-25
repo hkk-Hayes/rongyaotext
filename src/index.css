@@ -1,13 +1,90 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
 }
+
+.header {
+  background: #cfa775;
+  font-size: 0;
+  height: 1.2rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  padding-left: .3467rem;
+  padding-right: .3467rem;
+  box-sizing: border-box;
+  align-items: center;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.logo {
+  width: 20%;
+  height: 1.12rem;
+  color: white;
+  font-size: 15px;
+  line-height: 1.12rem;
+}
+
+.iconfont {
+  font-size: 18px;
+}
+
+.search {
+  width: 55%;
+  height: 31px;
+  background: #f3f3f3;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  padding-left: 7px;
+}
+
+.search .sousou {
+  position: relative;
+  width: 10%;
+  height: 20px;
+  font-size: 0;
+}
+
+.search .broadcast {
+  width: 90%;
+  display: flex;
+  height: .8267rem;
+  line-height: .8267rem;
+  font-size: 13px;
+  margin-left: 7px;
+}
+
+.search .broadcast p {
+  height: 1.12rem;
+}
+
+.header .login {
+  width: 20%;
+  height: .8267rem;
+  line-height: .8267rem;
+  display: flex;
+  text-align: right;
+  justify-content: space-around;
+}
+
+.header .login span {
+  width: 50%;
+  margin-left: .1333rem;
+  font-size: 13px;
+  color: white;
+}
+
+.header .login .icon-lingdang-xianxing {
+  font-size: 18px;
+}
+
+/* 头部结束 */

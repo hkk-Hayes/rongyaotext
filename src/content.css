@@ -1,0 +1,166 @@
+/* 轮播图  swiper开始 */
+.swiper1 {
+    margin-top: 1.12rem;
+    width: 100%;
+    height: 5.52rem;
+    background: #cfa775;
+}
+
+.swi-nav {
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 35px;
+    width: 100%;
+    line-height: 35px;
+    flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    padding-right: 7px;
+    font-size: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.swi-nav div {
+    width: 50px;
+    font-size: 13px;
+    color: #f7f7f7;
+    margin-left: 15px;
+
+}
+
+.swi-con {
+    width: 100%;
+    height: 4.5867rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.swi-con .swi-image {
+    width: 100%;
+    height: 4.5867rem;
+    margin: auto;
+}
+
+.swi-con .swi-image img {
+    width: 100%;
+    height: 4.5867rem;
+
+}
+
+.swi-l {
+    height: 0;
+    width: 88px;
+    border-bottom: 19px solid #fff;
+    border-left: 17px solid transparent;
+    border-right: 0 solid transparent;
+    -webkit-transform: rotate(-270deg);
+    transform: rotate(-270deg);
+    position: absolute;
+    right: -43px;
+    bottom: 43px;
+    z-index: 5;
+}
+
+.swi-r {
+    height: 0;
+    width: 88px;
+    border-bottom: 19px solid #fff;
+    border-left: 0 solid transparent;
+    border-right: 17px solid transparent;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -43px;
+    bottom: 43px;
+    z-index: 5;
+}
+
+/* 导航栏开始 */
+
+.nav2 img {
+    width: 1.333333rem;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 4.6933rem;
+}
+
+.nav2-item {
+    width: 17%;
+    padding: 10px 0;
+}
+
+
+
+    .nav3{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 8rem;
+        background-color: #f5f5f5;
+    }
+    
+    .nav3-item {
+        width: 30%;
+        height: 40%;
+        padding: 10px 0;
+        background-color: #fefefe;
+        text-align: center;
+    }
+    .nav3-item img{
+        width: 80%;
+    }
+    .nav3-item div{  
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+/* 猜你喜欢模块 */
+.top {
+    width: 100%;
+    margin-top: 1.12rem;
+    background: #f7f7f7;
+}
+
+.like {
+    width: 100%;
+    background: #f7f7f7;
+}
+
+h3 {
+    width: 100%;
+    height: 1.6rem;
+    font-size: 21px;
+
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 15px 5px;
+}
+
+.mybox {
+    width: 45%;
+    /* height: 218px; */
+    margin-top: .2667rem;
+    background: white;
+}
+
+.mybox img {
+    margin: 15px 30px 10px 20px;
+    width: 122px;
+    height: 122px;
+}
